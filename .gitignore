@@ -1,0 +1,15 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos generados por macOS
+.DS_Store
+
+# Contexto local de herramientas de IA
+AGENTS.md
+CLAUDE.md
+.claude/
